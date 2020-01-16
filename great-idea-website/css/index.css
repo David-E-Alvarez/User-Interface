@@ -87,15 +87,19 @@ nav a{
 	border: 2px purple solid;
 }
 
-.div1{
-	width: 25%;
+.innovationSectionClass .container .div1{
+	height: 400px;
+  	width: 400px;
+	border: 2px red solid;
 }
 
-.div2{
-	width: 25%;
+.innovationSectionClass .container .div2{
+	height: 400px;
+  	width: 400px;
+	border: 2px red solid;
 }
 
-.innovationSectionClass .contanier div{
+.innovationSectionClass .container div{
 	display:inline-block;
 	border: 2px black solid;
 }
@@ -137,6 +141,11 @@ footer{
 
 hr{
 	width: 75%;
+}
+
+.button{
+	border: 1px black solid;
+	color: red;
 }
 
 
