@@ -64,16 +64,20 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+body{
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+}
 /*nav styling*/
 #home{
 	margin-top: 30px;
 	margin-bottom: 50px;
-	border: 2px black solid;
+	/*border: 2px black solid;*/
 }
 nav a{
 	text-decoration:none;	
-	/*color: red;*/
+	color: grey;
 	margin-right:90px;
 	
 	
@@ -84,25 +88,30 @@ nav a{
 }
 
 .innovationSectionClass{
-	border: 2px purple solid;
+	/*border: 2px purple solid;*/
+	display: inline-block;
+	text-align: center;
+	margin-bottom: -150px;
 }
 
 .innovationSectionClass .container .div1{
 	height: 400px;
   	width: 400px;
-	border: 2px red solid;
+	/*border: 2px red solid;*/
+	transform: translateY(-40%);
+	text-align: center;
 }
 
 
 .innovationSectionClass .container .div2{
 	height: 400px;
   	width: 400px;
-	border: 2px red solid;
+	/*border: 2px red solid;*/
 }
 
 .innovationSectionClass .container div{
 	display:inline-block;
-	border: 2px black solid;
+	/*border: 2px black solid;*/
 }
 
 .innovationSectionClass div p{
@@ -110,21 +119,22 @@ nav a{
 }
 
 .stuffSection{
-	border: 2px red solid;
+	/*border: 2px red solid;*/
+	margin-top: 30px;
 }
 
 footer{
-	border: 2px black solid;
+	/*border: 2px black solid;*/
 	text-align: center;
 }
 
 .div1{
-	border: 2px black solid;
+	/*border: 2px black solid;*/
 	width: 25%;
 }
 
 .div2{
-	border: 2px black solid;
+	/*border: 2px black solid;*/
 	width: 25%;
 }
 
@@ -141,7 +151,7 @@ footer{
 }
 
 hr{
-	width: 75%;
+	width: 90%;
 }
 
 .stuffSection .container2{	
@@ -153,9 +163,14 @@ hr{
 }
 
 .middle-img{
-	border: 2px black solid;
+	/*border: 2px black solid;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-left: 3%;
+}
+
+.contact-section{
+	margin-right: 80%;
 }
 
 
