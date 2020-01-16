@@ -93,6 +93,7 @@ nav a{
 	border: 2px red solid;
 }
 
+
 .innovationSectionClass .container .div2{
 	height: 400px;
   	width: 400px;
@@ -143,9 +144,18 @@ hr{
 	width: 75%;
 }
 
-.button{
-	border: 1px black solid;
-	color: red;
+.stuffSection .container2{	
+	column-count: 2;
+}
+
+.stuffSection2 .container2{
+	column-count: 3;
+}
+
+.middle-img{
+	border: 2px black solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 
